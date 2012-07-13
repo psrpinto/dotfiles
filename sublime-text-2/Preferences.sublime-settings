@@ -1,3 +1,7 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme"
+	"color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	]
 }
