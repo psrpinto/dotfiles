@@ -1,8 +1,9 @@
 {
-	"auto_upgrade_last_run": 1342209441,
+	"auto_upgrade_last_run": 1342352123,
 	"installed_packages":
 	[
 		"DocBlockr",
-		"Package Control"
+		"Package Control",
+		"PHP-Twig"
 	]
 }
