@@ -3,5 +3,19 @@
 	"ignored_packages":
 	[
 		"Vintage"
+	],
+
+	"folder_exclude_patterns": [
+		".git", 
+
+		// Symfony specific
+		"logs", 
+		"app/cache"
+	],
+	
+	"file_exclude_patterns": [
+		"*.cache", 
+		"*.lock", 
+		"*.sublime-workspace"
 	]
 }
