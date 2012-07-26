@@ -3,7 +3,16 @@
 	email = regularjack@gmail.com
 [core]
 	editor = vim
+[color]
+	ui = auto
 [alias]
+	st = status
 	plom = pull origin master
 	phom = push origin master
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+[giggle]
+	main-window-maximized = true
+	main-window-geometry = 700x550+738+325
+	history-view-vpane-position = 340
+	main-window-view = HistoryView
+
