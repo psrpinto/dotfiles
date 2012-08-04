@@ -1,21 +1,20 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme",
+	"file_exclude_patterns":
+	[
+		"*.cache",
+		"*.lock",
+		"*.sublime-workspace"
+	],
+	"folder_exclude_patterns":
+	[
+		".git",
+		"logs",
+		"app/cache"
+	],
+	"font_size": 11.0,
 	"ignored_packages":
 	[
 		"Vintage"
-	],
-
-	"folder_exclude_patterns": [
-		".git", 
-
-		// Symfony specific
-		"logs", 
-		"app/cache"
-	],
-	
-	"file_exclude_patterns": [
-		"*.cache", 
-		"*.lock", 
-		"*.sublime-workspace"
 	]
 }
