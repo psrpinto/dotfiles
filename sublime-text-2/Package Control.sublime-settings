@@ -1,9 +1,12 @@
 {
-	"auto_upgrade_last_run": 1344159407,
+	"auto_upgrade_last_run": 1348086695,
 	"installed_packages":
 	[
+		"ApacheConf.tmLanguage",
 		"DocBlockr",
 		"Package Control",
-		"PHP-Twig"
+		"PHP-Twig",
+		"SublimeJava",
+		"Symfony2 Snippets"
 	]
 }

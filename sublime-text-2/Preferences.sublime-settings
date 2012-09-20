@@ -4,13 +4,16 @@
 	[
 		"*.cache",
 		"*.lock",
-		"*.sublime-workspace"
+		"*.sublime-workspace",
+		".project",
+		".buildpath"
 	],
 	"folder_exclude_patterns":
 	[
 		".git",
 		"logs",
-		"app/cache"
+		"app/cache",
+		".settings"
 	],
 	"font_size": 11.0,
 	"ignored_packages":
