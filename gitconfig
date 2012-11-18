@@ -7,13 +7,14 @@
 	ui = auto
 [alias]
 	st = status
+	co = checkout
 	plom = pull origin master
 	phom = push origin master
-	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(blue)[%an]%Creset' --abbrev-commit --date=relative
 [giggle]
 	main-window-maximized = true
 	main-window-geometry = 0x0+0+0
 	history-view-vpane-position = 340
-	main-window-view = FileView
+	main-window-view = HistoryView
 	file-view-vpane-position = 282
 

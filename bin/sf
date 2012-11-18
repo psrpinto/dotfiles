@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-# Simplify calling Symfony2 commands
-app/console $1
-

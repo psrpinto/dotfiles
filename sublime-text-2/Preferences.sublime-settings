@@ -16,6 +16,7 @@
 		".settings"
 	],
 	"font_size": 11.0,
+	"rulers": [80],
 	"ignored_packages":
 	[
 		"Vintage"
