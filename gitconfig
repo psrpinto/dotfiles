@@ -11,6 +11,7 @@
 	plom = pull origin master
 	phom = push origin master
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(blue)[%an]%Creset' --abbrev-commit --date=relative
+	rma = !git ls-files --deleted -z | xargs -0 git rm
 [giggle]
 	main-window-maximized = true
 	main-window-geometry = 0x0+0+0
