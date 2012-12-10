@@ -1,0 +1,22 @@
+# Enable connection sharing
+ControlMaster auto
+ControlPath /tmp/ssh_mux_%h_%p_%r
+
+# Enable persistent connections
+ControlPersist 4h
+
+# Enable agent forwarding
+ForwardAgent yes
+
+# Enable resilient connections
+TCPKeepAlive no
+ServerAliveInterval 60
+ServerAliveCountMax 10
+
+# Faster connections by disabling GSSAPI
+GSSAPIAuthentication no
+
+# Host aliases
+Host memeoirs
+	HostName memeoirs.com
+	User memeoirs
