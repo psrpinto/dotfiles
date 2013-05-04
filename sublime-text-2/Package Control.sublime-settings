@@ -6,11 +6,14 @@
 		"ApacheConf.tmLanguage",
 		"Backbone.js",
 		"DocBlockr",
+		"LiveReload",
+		"Markdown Preview",
 		"Package Control",
 		"PHP-Twig",
 		"SCSS",
 		"SideBarEnhancements",
 		"Symfony2 Snippets",
+		"Tag",
 		"TrailingSpaces"
 	]
 }

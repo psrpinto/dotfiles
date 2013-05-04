@@ -1,10 +1,11 @@
 {
-    "disabled_menuitem_edit"              : true,
-    "disabled_menuitem_open_run"          : true,
-    "disabled_menuitem_open_in_browser"   : true,
-    "disabled_menuitem_open_in_new_window": true,
-    "disabled_menuitem_find_in_project"   : false,
-    "disabled_menuitem_copy_name"         : false,
-    "disabled_menuitem_copy_path"         : false,
-    "disabled_menuitem_paste_in_parent"   : true
+	"disabled_menuitem_copy_name": false,
+	"disabled_menuitem_copy_path": false,
+	"disabled_menuitem_edit": true,
+	"disabled_menuitem_find_in_project": false,
+	"disabled_menuitem_open_in_browser": true,
+	"disabled_menuitem_open_in_new_window": true,
+	"disabled_menuitem_open_run": true,
+	"disabled_menuitem_paste_in_parent": true,
+	"version": "11.13.2012.1305.0"
 }

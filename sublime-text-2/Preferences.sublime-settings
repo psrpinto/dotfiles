@@ -1,5 +1,6 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme",
+	"detect_indentation": true,
 	"file_exclude_patterns":
 	[
 		"*.cache",
@@ -13,9 +14,10 @@
 		".git",
 		"logs",
 		"app/cache",
-		".settings"
+		".settings",
+		"nbproject"
 	],
-	"font_size": 11.0,
+	"font_size": 10.0,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -24,5 +26,6 @@
 	[
 		80
 	],
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
