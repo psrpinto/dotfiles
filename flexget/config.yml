@@ -1,0 +1,61 @@
+presets:
+  tv:
+    transmission:
+      host: localhost
+      port: 9091
+      username: pi
+      password: raspberry
+      removewhendone: Yes
+    set:
+      path: "~/downloads/complete/tv/{{ series_name }}/Season {{ series_season }}"
+    exists_series:
+      - ~/downloads/complete/tv/
+      - ~/tv
+    series:
+      hdtv:
+        - American Horror Story
+        - Archer (2009):
+            watched: S04E10
+        - Black Mirror:
+            watched: S02E03
+        - Dexter
+        - Doctor Who (2005)
+        - Elementary
+        - Falling Skies
+        - Defiance
+        - Game of Thrones
+        - Glee:
+            watched: S04E17
+        - Grimm:
+            watched: S02E14
+        - Hart of Dixie:
+            watched: S02E17
+        - House of Cards (2013):
+            watched: S01E13
+        - Legit (2013):
+            watched: S01E09
+        - Louie
+        - Modern Family
+        - New Girl
+        - Parks and Recreation:
+            watched: S05E16
+        - Portlandia
+        - Revolution
+        - The Big Bang Theory:
+            watched: S06E19
+        - The Following:
+            watched: S01E05
+        - The Good Wife:
+            watched: S04E17
+        - The Walking Dead:
+            watched: S03E14
+        - Touch (2012):
+            watched: S02E07
+        - Wilfred (AU? US?):
+            set:
+              series_name: Wilfred (US)
+
+tasks:
+  showrss:
+    rss: http://showrss.karmorra.info/rss.php?user_id=71878&hd=0&proper=1
+    preset: tv

@@ -1,3 +1,6 @@
+flexget/db-config.sqlite
+flexget/flexget.log
+
 *.sublime-project
 *.sublime-workspace
 sublime-text-2/Package Control.last-run
