@@ -6,10 +6,10 @@
 [ -z "$PS1" ] && return
 
 # set path variables
-export PATH=$PATH:~/code/dotfiles/bin
+export PATH=$PATH:~/.dotfiles/bin
 
 # load completions
-source ~/code/dotfiles/bash/completions
+source ~/.dotfiles/bash/completions
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
