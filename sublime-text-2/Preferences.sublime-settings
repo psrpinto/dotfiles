@@ -7,7 +7,8 @@
 		"*.lock",
 		"*.sublime-workspace",
 		".project",
-		".buildpath"
+		".buildpath",
+		"*.phar"
 	],
 	"folder_exclude_patterns":
 	[

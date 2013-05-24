@@ -14,43 +14,36 @@ presets:
     series:
       hdtv:
         - American Horror Story
-        - Archer (2009):
-            watched: S04E10
+        - Arrested Development:
+            watched: S03E13
+        - Archer (2009)
         - Black Mirror:
             watched: S02E03
+        - Community:
+            watched: S04E13
         - Dexter
         - Doctor Who (2005)
         - Elementary
         - Falling Skies
         - Defiance
         - Game of Thrones
-        - Glee:
-            watched: S04E17
-        - Grimm:
-            watched: S02E14
-        - Hart of Dixie:
-            watched: S02E17
+        - Glee
+        - Grimm
+        - Hart of Dixie
         - House of Cards (2013):
             watched: S01E13
-        - Legit (2013):
-            watched: S01E09
+        - Legit (2013)
         - Louie
         - Modern Family
         - New Girl
-        - Parks and Recreation:
-            watched: S05E16
+        - Parks and Recreation
         - Portlandia
         - Revolution
-        - The Big Bang Theory:
-            watched: S06E19
-        - The Following:
-            watched: S01E05
-        - The Good Wife:
-            watched: S04E17
-        - The Walking Dead:
-            watched: S03E14
-        - Touch (2012):
-            watched: S02E07
+        - The Big Bang Theory
+        - The Following
+        - The Good Wife
+        - The Walking Dead
+        - Touch (2012)
         - Wilfred (AU? US?):
             set:
               series_name: Wilfred (US)
