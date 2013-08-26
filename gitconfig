@@ -9,13 +9,15 @@
 	st = status
 	co = checkout
 	plom = pull origin master
+	plod = pull origin develop
 	phom = push origin master
+	phod = push origin develop
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(blue)[%an]%Creset' --abbrev-commit --date=relative
 	rma = !git ls-files --deleted -z | xargs -0 git rm
 [giggle]
 	main-window-maximized = true
 	main-window-geometry = 0x0+0+0
-	history-view-vpane-position = 340
+	history-view-vpane-position = 186
 	main-window-view = HistoryView
 	file-view-vpane-position = 282
 

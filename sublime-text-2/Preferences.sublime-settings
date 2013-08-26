@@ -8,7 +8,9 @@
 		"*.sublime-workspace",
 		".project",
 		".buildpath",
-		"*.phar"
+		"*.phar",
+		".gitmodules",
+		".rvmrc"
 	],
 	"folder_exclude_patterns":
 	[
