@@ -1,34 +1,32 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme",
-	"detect_indentation": true,
-	"file_exclude_patterns":
-	[
-		"*.cache",
-		"*.lock",
-		"*.sublime-workspace",
-		".project",
-		".buildpath",
-		"*.phar",
-		".gitmodules",
-		".rvmrc"
-	],
-	"folder_exclude_patterns":
-	[
-		".git",
-		"logs",
-		"app/cache",
-		".settings",
-		"nbproject"
-	],
-	"font_size": 10.0,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"rulers":
-	[
-		80
-	],
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+    "color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme",
+    "scroll_speed": 0, // disable smooth scrolling to prevent choppy scrolling on Ubuntu 13.04
+    "font_face": "Source Code Pro",
+    "font_size": 10.0,
+    // "font_face": "Ubuntu Mono",
+    // "font_size": 11.0,
+    "highlight_line": true,
+    "file_exclude_patterns":
+    [
+        "*.cache",
+        "*.lock",
+        "*.sublime-workspace",
+        ".project",
+        ".buildpath",
+        "*.phar",
+        ".gitmodules"
+    ],
+    "folder_exclude_patterns":
+    [
+        ".git",
+        "logs",
+        "app/cache",
+        ".settings",
+        "nbproject"
+    ],
+    "ignored_packages": ["Vintage"],
+    "rulers": [80],
+    "detect_indentation": true,
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true
 }
