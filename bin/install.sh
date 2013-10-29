@@ -2,7 +2,7 @@
 
 # install ZSH and set it as default
 sudo apt-get install zsh
-chsh -s /bin/zsh
+chsh -s $(which zsh) `whoami`
 
 # create links from home directory
 ln -sf $PWD ~/.dotfiles
@@ -11,6 +11,7 @@ ln -sf ~/.dotfiles/bash/bash_profile ~/.bash_profile
 ln -sf ~/.dotfiles/bash/bashrc ~/.bashrc
 ln -sf ~/.dotfiles/gitconfig  ~/.gitconfig
 ln -sf ~/.dotfiles/my-oh-zsh ~/.oh-my-zsh
+ln -sf ~/.dotfiles/my-oh-zsh/custom/zshrc ~/.zshrc
 ln -sf ~/.dotfiles/my-oh-zsh/custom/zshenv ~/.zshenv
 
 # install fonts
