@@ -4,8 +4,10 @@
 	[
 		"Alignment",
 		"ApacheConf.tmLanguage",
+		"ApplySyntax",
 		"Backbone.js",
 		"DocBlockr",
+		"Jinja2",
 		"LiveReload",
 		"Markdown Preview",
 		"Package Control",

@@ -24,12 +24,5 @@ Host htpi
 Host memeoirs
 	HostName memeoirs.com
 	User memeoirs
-
-Host agt
-	HostName aghosttrain.com
-	User aghosttrain
-
-Host bitmoovcrm
-	Hostname ec2-23-23-20-201.compute-1.amazonaws.com
-	User ubuntu
-	IdentityFile ~/Desktop/bitmoovcrm/bitmoov_amazon_aws_key.pem
+	# postgres
+	LocalForward 127.0.0.1:5555 127.0.0.1:5432
