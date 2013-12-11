@@ -14,20 +14,18 @@ presets:
     series:
       hdtv:
         - American Horror Story
-        - Arrested Development:
-            watched: S03E13
+        - Arrested Development
         - Archer (2009)
         - Black Mirror:
             watched: S02E03
         - Community:
             watched: S04E13
-        - Dexter
         - Doctor Who (2005)
         - Elementary
         - Falling Skies
+        - Hell on Wheels
         - Defiance
         - Game of Thrones
-        - Glee
         - Grimm
         - Hart of Dixie
         - House of Cards (2013):
@@ -44,11 +42,12 @@ presets:
         - The Good Wife
         - The Walking Dead
         - Touch (2012)
+        - Under the Dome
         - Wilfred (AU? US?):
             set:
               series_name: Wilfred (US)
 
 tasks:
   showrss:
-    rss: http://showrss.karmorra.info/rss.php?user_id=71878&hd=0&proper=1
+    rss: http://showrss.info/rss.php?user_id=71878&hd=0&proper=1
     preset: tv
