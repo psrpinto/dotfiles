@@ -12,7 +12,7 @@
     "blocklist-url": "http://www.example.com/blocklist",
     "cache-size-mb": 4,
     "dht-enabled": true,
-    "download-dir": "/media/SMPLR-500/Downloads/complete",
+    "download-dir": "/home/pi/xbmc_media/Downloads/complete",
     "download-limit": 100,
     "download-limit-enabled": 0,
     "download-queue-enabled": true,
@@ -20,7 +20,7 @@
     "encryption": 2,
     "idle-seeding-limit": 30,
     "idle-seeding-limit-enabled": false,
-    "incomplete-dir": "/media/SMPLR-500/Downloads/ongoing",
+    "incomplete-dir": "/home/pi/xbmc_media/Downloads/ongoing",
     "incomplete-dir-enabled": true,
     "lpd-enabled": true,
     "max-peers-global": 200,
@@ -67,6 +67,6 @@
     "upload-limit-enabled": 0,
     "upload-slots-per-torrent": 14,
     "utp-enabled": true,
-    "watch-dir": "/media/SMPLR-500/Downloads/torrentwatch/",
+    "watch-dir": "/home/pi/xbmc_media/Downloads/torrentwatch/",
     "watch-dir-enabled": true
 }
