@@ -7,10 +7,10 @@ presets:
       password: raspberry
       removewhendone: Yes
     set:
-      path: "~/downloads/complete/tv/{{ series_name }}/Season {{ series_season }}"
+      path: "~/xbmc_media/Downloads/complete/tv/{{ series_name }}/Season {{ series_season }}"
     exists_series:
-      - ~/downloads/complete/tv/
-      - ~/tv
+      - ~/xbmc_media/Downloads/complete/tv/
+      - ~/xbmc_media/TV
     series:
       hdtv:
         - American Horror Story
