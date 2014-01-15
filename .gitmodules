@@ -1,3 +1,6 @@
 [submodule "my-oh-zsh"]
 	path = my-oh-zsh
 	url = git@github.com:regularjack/my-oh-zsh.git
+[submodule "z"]
+	path = z
+	url = https://github.com/rupa/z.git
