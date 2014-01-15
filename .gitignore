@@ -1,5 +1,6 @@
 flexget/db-config.sqlite
 flexget/flexget.log
+flexget/received
 
 *.sublime-project
 *.sublime-workspace
