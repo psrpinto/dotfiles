@@ -1,42 +1,53 @@
-presets:
+templates:
   tv:
     transmission:
       host: localhost
       port: 9091
       username: pi
       password: raspberry
-      removewhendone: Yes
+    clean_transmission:
+      host: localhost
+      port: 9091
+      username: pi
+      password: raspberry
+      min_ratio: 1
     set:
       path: "~/xbmc_media/Downloads/complete/tv/{{ series_name }}/Season {{ series_season }}"
     exists_series:
       - ~/xbmc_media/Downloads/complete/tv/
       - ~/xbmc_media/TV
     series:
+      webrip:
+        - House of Cards (2013):
+            begin: S02E01
       hdtv:
         - American Horror Story
-        - Arrested Development
+        - Arrow
         - Archer (2009)
         - Black Mirror:
-            watched: S02E03
-        - Community:
-            watched: S04E13
+            begin: S03E01
+        - Community
+        - Chozen
         - Doctor Who (2005)
         - Elementary
         - Falling Skies
+        - Helix
         - Hell on Wheels
         - Game of Thrones
         - Grimm
         - Hart of Dixie
-        - House of Cards (2013):
-            watched: S01E13
         - Legit (2013)
         - Louie
+        - Marvel's Agents of S.H.I.E.L.D.:
+            set:
+              series_name: Marvel's Agents of SHIELD
         - Modern Family
         - New Girl
         - Parks and Recreation
         - Portlandia
         - Revolution
         - Sherlock
+        - The After
         - The Big Bang Theory
         - The Following
         - The Good Wife
@@ -49,4 +60,4 @@ presets:
 tasks:
   showrss:
     rss: http://showrss.info/rss.php?user_id=71878&hd=0&proper=1
-    preset: tv
+    template: tv
