@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme",
+	"color_scheme": "Packages/User/base16-eighties.dark (SL).tmTheme",
 	"detect_indentation": true,
 	"file_exclude_patterns":
 	[
@@ -21,7 +21,7 @@
 		"nbproject"
 	],
 	"font_face": "Source Code Pro",
-	"font_size": 10.0,
+	"font_size": 10,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -32,6 +32,7 @@
 		80
 	],
 	"scroll_speed": 0,
+	"theme": "Spacegray Eighties.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }

@@ -13,8 +13,11 @@
 		"PHP-Twig",
 		"SCSS",
 		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-php",
 		"Symfony2 Snippets",
 		"Tag",
+		"Theme - Spacegray",
 		"TrailingSpaces"
 	]
 }
