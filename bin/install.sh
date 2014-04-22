@@ -13,6 +13,7 @@ ln -sf ~/.dotfiles/gitconfig  ~/.gitconfig
 ln -sf ~/.dotfiles/my-oh-zsh ~/.oh-my-zsh
 ln -sf ~/.dotfiles/my-oh-zsh/custom/zshrc ~/.zshrc
 ln -sf ~/.dotfiles/my-oh-zsh/custom/zshenv ~/.zshenv
+ln -sf ~/.dotfiles/gnome-terminal/Regularjack ~/.gconf/apps/gnome-terminal/profiles/Regularjack
 
 # install fonts
 mkdir -p ~/.fonts
