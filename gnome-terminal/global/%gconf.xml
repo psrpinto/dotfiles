@@ -3,12 +3,12 @@
 	<entry name="default_profile" mtime="1398249194" type="string">
 		<stringvalue>Profile1</stringvalue>
 	</entry>
-	<entry name="profile_list" mtime="1398249115" type="list" ltype="string">
-		<li type="string">
-			<stringvalue>Profile0</stringvalue>
-		</li>
+	<entry name="profile_list" mtime="1398383290" type="list" ltype="string">
 		<li type="string">
 			<stringvalue>Default</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>Profile0</stringvalue>
 		</li>
 		<li type="string">
 			<stringvalue>Profile1</stringvalue>
