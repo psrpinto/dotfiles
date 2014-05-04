@@ -4,5 +4,5 @@ flexget/received
 
 *.sublime-project
 *.sublime-workspace
-sublime-text-2/Package Control.last-run
-sublime-text-2/Package Control.cache/
+sublime-text/Package Control.last-run
+sublime-text/Package Control.cache/
