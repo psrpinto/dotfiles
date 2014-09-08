@@ -18,14 +18,17 @@
 		"logs",
 		"app/cache",
 		".settings",
-		"nbproject"
+		"nbproject",
+		"node_modules",
+		"tmp"
 	],
 	"font_face": "Source Code Pro",
 	"font_size": 10,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Markdown Preview"
 	],
 	"rulers":
 	[

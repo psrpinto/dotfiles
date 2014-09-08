@@ -24,6 +24,9 @@ ln -sf ~/.dotfiles/gitconfig  ~/.gitconfig
 mkdir .ssh
 ln -sf ~/.dotfiles/sshconfig ~/.ssh/config
 
+mkdir ~/.npm-packages
+ln -sf ~/.dotfiles/npmrc ~/.npmrc
+
 # install fonts
 mkdir -p ~/.fonts
 cp -f fonts/SourceCodePro_FontsOnly-1.013/OTF/*.otf ~/.fonts/

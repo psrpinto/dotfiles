@@ -26,3 +26,15 @@ Host memeoirs
 	User memeoirs
 	# postgres
 	LocalForward 127.0.0.1:5555 127.0.0.1:5432
+
+#Host dev.memeoirs.com
+#  HostName 127.0.0.1
+#  User vagrant
+#  Port 2222
+#  UserKnownHostsFile /dev/null
+#  StrictHostKeyChecking no
+#  PasswordAuthentication no
+#  IdentityFile /home/regularjack/.vagrant.d/insecure_private_key
+#  IdentitiesOnly yes
+#  LogLevel FATAL
+
