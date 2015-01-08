@@ -9,7 +9,8 @@
 		".project",
 		".buildpath",
 		"*.phar",
-		".gitmodules"
+		".gitmodules",
+		"npm-debug.log"
 	],
 	"folder_exclude_patterns":
 	[
@@ -19,7 +20,6 @@
 		"app/cache",
 		".settings",
 		"nbproject",
-		"node_modules",
 		"tmp"
 	],
 	"font_face": "Source Code Pro",
@@ -27,8 +27,8 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown Preview"
+		"Tag",
+		"Vintage"
 	],
 	"rulers":
 	[

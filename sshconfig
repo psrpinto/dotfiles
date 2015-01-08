@@ -18,14 +18,14 @@ GSSAPIAuthentication no
 
 # Host aliases
 Host htpi
-	HostName 192.168.0.49
-	User pi
+  HostName 192.168.0.49
+  User pi
 
 Host memeoirs
-	HostName memeoirs.com
-	User memeoirs
-	# postgres
-	LocalForward 127.0.0.1:5555 127.0.0.1:5432
+  HostName memeoirs.com
+  User memeoirs
+  # postgres
+  LocalForward 127.0.0.1:5555 127.0.0.1:5432
 
 #Host dev.memeoirs.com
 #  HostName 127.0.0.1
@@ -37,4 +37,3 @@ Host memeoirs
 #  IdentityFile /home/regularjack/.vagrant.d/insecure_private_key
 #  IdentitiesOnly yes
 #  LogLevel FATAL
-
