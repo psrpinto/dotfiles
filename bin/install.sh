@@ -32,3 +32,10 @@ mkdir -p ~/.fonts
 cp -f fonts/SourceCodePro_FontsOnly-1.013/OTF/*.otf ~/.fonts/
 cp -f fonts/Monaco_Linux.ttf ~/.fonts/
 fc-cache -f -v
+
+# PHP development
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+
+composer global require fabpot/php-cs-fixer
+export PATH="$PATH:$HOME/.composer/vendor/bin"
