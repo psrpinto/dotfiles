@@ -6,3 +6,5 @@ flexget/received
 *.sublime-workspace
 sublime-text/Package Control.last-run
 sublime-text/Package Control.cache/
+sublime-text/Package Control.merged-ca-bundle
+sublime-text/Package Control.user-ca-bundle

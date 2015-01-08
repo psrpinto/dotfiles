@@ -12,8 +12,6 @@
 	"installed_packages":
 	[
 		"Alignment",
-		"ApacheConf.tmLanguage",
-		"Backbone.js",
 		"DocBlockr",
 		"Handlebars",
 		"HexViewer",
@@ -22,13 +20,13 @@
 		"nginx",
 		"Package Control",
 		"PHP-Twig",
+		"Phpcs",
 		"PhpNamespace",
 		"SCSS",
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-php",
 		"Symfony2 Snippets",
-		"Tag",
 		"Theme - Spacegray",
 		"TrailingSpaces"
 	]

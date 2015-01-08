@@ -1,0 +1,16 @@
+{
+    "show_debug": true,
+    "phpcs_sniffer_run": false,
+    "phpcs_command_on_save": false,
+    "phpcs_linter_run": false,
+    "phpcs_linter_command_on_save": false,
+    "phpmd_run": false,
+    "phpmd_command_on_save": false,
+    "scheck_run": false,
+    "scheck_command_on_save": false,
+    "php_cs_fixer_on_save": true,
+    "php_cs_fixer_executable_path": "/home/regularjack/.composer/vendor/bin/php-cs-fixer",
+    "php_cs_fixer_additional_args": {
+        "--config-file": "/home/regularjack/code/fitmemes/memeoirs/.php_cs"
+    }
+}
