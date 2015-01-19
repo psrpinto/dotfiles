@@ -6,13 +6,12 @@
 [color]
 	ui = auto
 [alias]
-	st = status
-	co = checkout
 	plom = pull origin master
 	plod = pull origin develop
 	phom = push origin master
 	phod = push origin develop
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(blue)[%an]%Creset' --abbrev-commit --date=relative
 	rma = !git ls-files --deleted -z | xargs -0 git rm
+	unstage = reset HEAD
 	undo = reset --soft 'HEAD^'
 	reset-permissions = !git diff -p -R | grep -E '^(diff|(old|new) mode)' | git apply
