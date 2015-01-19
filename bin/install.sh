@@ -34,6 +34,7 @@ cp -f fonts/Monaco_Linux.ttf ~/.fonts/
 fc-cache -f -v
 
 # PHP development
+sudo apt-get install curl
 curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 
