@@ -17,7 +17,7 @@
 		".git",
 		".vagrant",
 		"logs",
-		"app/cache",
+		"cache",
 		".settings",
 		"nbproject",
 		"tmp"
@@ -27,14 +27,15 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Tag",
-		"Vintage"
+		"Vintage",
+		"Tag"
 	],
 	"rulers":
 	[
 		80
 	],
 	"scroll_speed": 0,
+	"show_encoding": true,
 	"theme": "Spacegray Eighties.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true

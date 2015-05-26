@@ -26,6 +26,7 @@ ln -sf ~/.dotfiles/sshconfig ~/.ssh/config
 
 mkdir ~/.npm-packages
 ln -sf ~/.dotfiles/npmrc ~/.npmrc
+ln -sf ~/.dotfiles/npmconfig ~/.npmconfig
 
 # install fonts
 mkdir -p ~/.fonts

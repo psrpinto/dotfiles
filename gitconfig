@@ -15,3 +15,5 @@
 	unstage = reset HEAD
 	undo = reset --soft 'HEAD^'
 	reset-permissions = !git diff -p -R | grep -E '^(diff|(old|new) mode)' | git apply
+[push]
+	default = simple
