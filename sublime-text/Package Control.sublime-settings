@@ -1,5 +1,6 @@
 {
 	"auto_upgrade_last_run": null,
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -8,9 +9,7 @@
 		"Alignment",
 		"DocBlockr",
 		"EncodingHelper",
-		"Handlebars",
 		"HexViewer",
-		"Jinja2",
 		"JsonTree",
 		"Markdown Preview",
 		"nginx",
@@ -23,6 +22,7 @@
 		"SublimeLinter",
 		"SublimeLinter-php",
 		"Symfony2 Snippets",
+		"Theme - SoDaReloaded",
 		"Theme - Spacegray",
 		"TrailingSpaces"
 	]

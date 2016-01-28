@@ -23,12 +23,12 @@
 		"tmp"
 	],
 	"font_face": "Source Code Pro",
-	"font_size": 10,
+	"font_size": 14,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Tag"
+		"Tag",
+		"Vintage"
 	],
 	"rulers":
 	[
@@ -36,7 +36,7 @@
 	],
 	"scroll_speed": 0,
 	"show_encoding": true,
-	"theme": "Spacegray Eighties.sublime-theme",
+	"theme": "SoDaReloaded Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
