@@ -1,13 +1,15 @@
 #!/usr/bin/env zsh
 
+PLATFORM=$(uname -s)
+
 if [[ "$PLATFORM" == "Linux" ]]; then
-  if [[ -a ~/.fonts/SourceCodePro-Black.otf ]]; then
+  if [[ -a ~/.fonts/SourceCodePro-Black.ttf ]]; then
     exit
   fi
 fi
 
 if [[ "$PLATFORM" == "Darwin" ]]; then
- if [[ -a ~/Library/Fonts/SourceCodePro-Black.otf ]]; then
+ if [[ -a ~/Library/Fonts/SourceCodePro-Black.ttf ]]; then
     exit
  fi
 fi

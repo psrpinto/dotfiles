@@ -13,4 +13,4 @@ if [[ "$SHELL" != "/bin/zsh" ]]; then
 fi
 
 # find the installers and run them iteratively
-find . -name install.zsh | while read installer ; do source "${installer}" ; done
+find . -name install.zsh | while read installer ; do echo "Running $installer"; sh -c "${installer}" ; done
