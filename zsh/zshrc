@@ -17,7 +17,7 @@ COMPLETION_WAITING_DOTS="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(git symfony2 composer vagrant)
+plugins=(zsh_reload z git sublime symfony2 composer vagrant)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -36,8 +36,6 @@ alias gdc='git diff --cached'
 
 LC_CTYPE=en_US.UTF-8
 LC_ALL=en_US.UTF-8
-
-source ~/.z-source/z.sh
 
 # in vagrant, the git status indicator is unacceptably slow so we disable it
 function git_prompt_info() {
