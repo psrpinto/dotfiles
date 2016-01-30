@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+if [[ ${PWD##*/} != "dotfiles" ]]; then
+  echo "dot must be executed from the dotfiles directory, e.g. ~/code/dotfiles"
+  exit
+fi
+
 PLATFORM=$(uname -s)
 
 ln -sfh $PWD ~/.dotfiles
