@@ -15,7 +15,14 @@ composer global update --prefer-dist
 
 # wp-cli fails to install with composer due to incompatible dependencies
 if [[ ! -a bin/wp ]]; then
-  curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
-  chmod +x wp-cli.phar
-  mv wp-cli.phar bin/wp
+  curl -LsS https://symfony.com/installer -o bin/wp
+  chmod +x bin/wp
+fi
+
+# symfony-install fails to install with composer due to incompatible dependencies
+if [[ ! -a bin/symfony ]]; then
+  curl -LsS https://symfony.com/installer -o bin/symfony
+  chmod a+x bin/symfony
+else
+  symfony self-update
 fi
