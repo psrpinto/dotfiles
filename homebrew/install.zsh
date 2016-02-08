@@ -3,7 +3,7 @@
 PLATFORM=$(uname -s)
 
 if [[ "$PLATFORM" != "Darwin" ]]; then
-  exit
+  return
 fi
 
 if ! (( $+commands[brew] )); then

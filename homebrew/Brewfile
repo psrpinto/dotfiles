@@ -1,0 +1,3 @@
+brew "openssl"
+
+cask "pgadmin3"
