@@ -1,3 +1,6 @@
+tap "homebrew/dupes"
+tap "homebrew/services"
+
 brew "openssl"
 
-cask "pgadmin3"
+# cask "pgadmin3"

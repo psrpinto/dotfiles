@@ -2,6 +2,16 @@
 
 PLATFORM=$(uname -s)
 
+if [[ "$PLATFORM" == "Darwin" ]]; then
+  brew tap homebrew/php
+  brew install php70 --with-postgresql --with-mysql
+else
+  echo 'PHP7 installation on Linux not implemented yet'
+  return
+fi
+exit
+
+
 if [[ ! -a bin/composer ]]; then
   curl -sS https://getcomposer.org/installer | php -- --install-dir=bin --filename=composer
 else
