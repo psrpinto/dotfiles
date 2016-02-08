@@ -9,8 +9,8 @@
     "scheck_run": false,
     "scheck_command_on_save": false,
     "php_cs_fixer_on_save": true,
-    "php_cs_fixer_executable_path": "/home/regularjack/.composer/vendor/bin/php-cs-fixer",
+    "php_cs_fixer_executable_path": "/Users/regularjack/.composer/vendor/bin/php-cs-fixer",
     "php_cs_fixer_additional_args": {
-        "--config-file": "/home/regularjack/code/fitmemes/memeoirs/.php_cs"
+        "--config-file": "/Users/regularjack/.dotfiles/php/php_cs"
     }
 }

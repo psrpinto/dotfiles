@@ -1,0 +1,13 @@
+<?php
+
+return Symfony\CS\Config\Config::create()
+    ->level(Symfony\CS\FixerInterface::SYMFONY_LEVEL)
+    ->fixers([
+        // 'align_double_arrow',
+        // 'align_equals',
+        // 'multiline_spaces_before_semicolon',
+        // 'ordered_use',
+        'short_array_syntax',
+    ])
+    ->setUsingCache(true)
+;
