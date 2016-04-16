@@ -3,14 +3,14 @@
 	"detect_indentation": true,
 	"file_exclude_patterns":
 	[
+		"*.log",
 		"*.cache",
 		"*.lock",
 		"*.sublime-workspace",
 		".project",
 		".buildpath",
 		"*.phar",
-		".gitmodules",
-		"npm-debug.log"
+		".gitmodules"
 	],
 	"folder_exclude_patterns":
 	[
