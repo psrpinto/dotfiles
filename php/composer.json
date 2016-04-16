@@ -1,6 +1,6 @@
 {
     "require": {
         "fabpot/php-cs-fixer": "^1.11",
-        "phpunit/phpunit": "^4.8"
+        "phpunit/phpunit": "~5.2"
     }
 }
