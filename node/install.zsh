@@ -1,5 +1,10 @@
 #!/usr/bin/env zsh
 
-mkdir -p ~/.npm-packages
+PLATFORM=$(uname -s)
+
+if [[ "$PLATFORM" == "Darwin" ]]; then
+  brew install node
+fi
+
+mkdir -p ~/.npm
 ln -sfh ~/.dotfiles/node/npmrc ~/.npmrc
-ln -sfh ~/.dotfiles/node/npmconfig ~/.npmconfig
