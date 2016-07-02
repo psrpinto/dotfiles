@@ -1,13 +1,11 @@
 #!/usr/bin/env bash
 
-if [[ ${PWD##*/} != "dotfiles" ]]; then
-  echo "dot must be executed from the dotfiles directory, e.g. ~/code/dotfiles"
+if [[ ${PWD##*/} != ".dotfiles" ]]; then
+  echo "dot must be executed from the dotfiles directory, ~/.dotfiles"
   exit
 fi
 
 PLATFORM=$(uname -s)
-
-ln -sfh $PWD ~/.dotfiles
 
 if [[ "$PLATFORM" == "Linux" ]]; then
   sudo apt-get install zsh curl

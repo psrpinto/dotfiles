@@ -1,5 +1,5 @@
 {
-    "show_debug": true,
+    "show_debug": false,
     "phpcs_sniffer_run": false,
     "phpcs_command_on_save": false,
     "phpcs_linter_run": false,

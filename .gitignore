@@ -8,3 +8,4 @@ sublime-text/Package Control.system-ca-bundle
 bin/composer
 bin/wp
 bin/symfony
+bin/xdebug

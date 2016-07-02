@@ -11,6 +11,10 @@ else
   return
 fi
 
+# xdebug toggler
+curl -L https://raw.githubusercontent.com/w00fz/xdebug-osx/master/xdebug > ~/.dotfiles/bin/xdebug
+chmod +x ~/.dotfiles/bin/xdebug
+
 if [[ ! -a bin/composer ]]; then
   curl -sS https://getcomposer.org/installer | php -- --install-dir=bin --filename=composer
 else
@@ -18,7 +22,7 @@ else
 fi
 
 mkdir -p ~/.composer
-ln -sfh ~/.dotfiles/php/composer.json ~/.composer/composer.json
+ln -sf ~/.dotfiles/php/composer.json ~/.composer/composer.json
 
 composer global update --prefer-dist
 

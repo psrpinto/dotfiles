@@ -1,3 +1,3 @@
 #!/usr/bin/env zsh
 
-ln -sfh ~/.dotfiles/git/gitconfig ~/.gitconfig
+ln -sf ~/.dotfiles/git/gitconfig ~/.gitconfig

@@ -3,7 +3,7 @@
 PLATFORM=$(uname -s)
 
 if [[ "$PLATFORM" == "Linux" ]]; then
-  ln -sfh ~/.dotfiles/sublime-text ~/.config/sublime-text-3/Packages/User
+  ln -sf ~/.dotfiles/sublime-text ~/.config/sublime-text-3/Packages/User
 fi
 
 if [[ "$PLATFORM" == "Darwin" ]]; then

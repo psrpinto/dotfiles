@@ -1,5 +1,6 @@
 [
 { "keys": ["super+back_slash"], "command": "toggle_comment", "args": { "block": false } },
 { "keys": ["super+alt+back_slash"], "command": "toggle_comment", "args": { "block": true } },
-{ "keys": ["ctrl+alt+m"], "command": "markdown_preview", "args": {"target": "browser"} }
+{ "keys": ["ctrl+alt+m"], "command": "markdown_preview", "args": {"target": "browser"} },
+{ "keys": ["super+alt+a"], "command": "alignment" },
 ]

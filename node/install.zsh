@@ -7,4 +7,4 @@ if [[ "$PLATFORM" == "Darwin" ]]; then
 fi
 
 mkdir -p ~/.npm
-ln -sfh ~/.dotfiles/node/npmrc ~/.npmrc
+ln -sf ~/.dotfiles/node/npmrc ~/.npmrc
