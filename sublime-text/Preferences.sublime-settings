@@ -10,7 +10,8 @@
 		".project",
 		".buildpath",
 		"*.phar",
-		".gitmodules"
+		".gitmodules",
+		".DS_Store"
 	],
 	"folder_exclude_patterns":
 	[

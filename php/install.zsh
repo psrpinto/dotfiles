@@ -5,15 +5,15 @@ PLATFORM=$(uname -s)
 if [[ "$PLATFORM" == "Darwin" ]]; then
   brew tap homebrew/php
   brew install php70 --with-postgresql --with-mysql
-  brew install php70-xdebug
+  brew install php70-xdebug php70-mcrypt
+
+  # xdebug toggler
+  curl -L https://raw.githubusercontent.com/w00fz/xdebug-osx/master/xdebug > ~/.dotfiles/bin/xdebug
+  chmod +x ~/.dotfiles/bin/xdebug
 else
   echo 'PHP7 installation on Linux not implemented yet'
   return
 fi
-
-# xdebug toggler
-curl -L https://raw.githubusercontent.com/w00fz/xdebug-osx/master/xdebug > ~/.dotfiles/bin/xdebug
-chmod +x ~/.dotfiles/bin/xdebug
 
 if [[ ! -a bin/composer ]]; then
   curl -sS https://getcomposer.org/installer | php -- --install-dir=bin --filename=composer
