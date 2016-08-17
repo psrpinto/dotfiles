@@ -17,3 +17,5 @@
 	reset-permissions = !git diff -p -R | grep -E '^(diff|(old|new) mode)' | git apply
 [push]
 	default = simple
+[commit]
+	gpgsign = true
