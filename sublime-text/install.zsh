@@ -7,5 +7,6 @@ if [[ "$PLATFORM" == "Linux" ]]; then
 fi
 
 if [[ "$PLATFORM" == "Darwin" ]]; then
+  brew cask install sublime-text
   ln -sfh ~/.dotfiles/sublime-text ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 fi

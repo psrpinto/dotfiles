@@ -11,8 +11,11 @@
 		".buildpath",
 		"*.phar",
 		".gitmodules",
-		".DS_Store"
+		".DS_Store",
+		"*.retry",
+		"*.pyc"
 	],
+	"find_selected_text": true,
 	"folder_exclude_patterns":
 	[
 		".git",
@@ -35,6 +38,7 @@
 	[
 		80
 	],
+	"scroll_past_end": true,
 	"scroll_speed": 0,
 	"show_encoding": true,
 	"theme": "SoDaReloaded Dark.sublime-theme",
