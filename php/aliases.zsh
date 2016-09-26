@@ -1,0 +1,1 @@
+alias "php-switch"='function _php_switch(){ brew-php-switcher $1 -s; };_php_switch'

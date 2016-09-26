@@ -6,9 +6,10 @@ return Symfony\CS\Config\Config::create()
         // 'align_double_arrow',
         // 'align_equals',
         // 'multiline_spaces_before_semicolon',
-        // 'ordered_use',
         'short_array_syntax',
-       '-unalign_double_arrow'
+        'ordered_use',
+        '-unalign_double_arrow',
+        '-operators_spaces'
     ])
     ->setUsingCache(true)
 ;

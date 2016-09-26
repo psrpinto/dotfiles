@@ -6,6 +6,11 @@ if [[ "$PLATFORM" == "Darwin" ]]; then
   brew tap homebrew/php
   brew install php70 --with-postgresql --with-mysql
   brew install php70-xdebug php70-mcrypt
+  brew install php53 --with-postgresql --with-mysql
+  brew install php53-xdebug php53-mcrypt
+
+  # Switch PHP versions from the CLI with `php-switch 53`
+  brew install brew-php-switcher
 
   # xdebug toggler
   curl -L https://raw.githubusercontent.com/w00fz/xdebug-osx/master/xdebug > ~/.dotfiles/bin/xdebug
