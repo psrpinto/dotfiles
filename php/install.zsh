@@ -2,23 +2,23 @@
 
 PLATFORM=$(uname -s)
 
-if [[ "$PLATFORM" == "Darwin" ]]; then
-  brew tap homebrew/php
-  brew install php70 --with-postgresql --with-mysql
-  brew install php70-xdebug php70-mcrypt
-  brew install php53 --with-postgresql --with-mysql
-  brew install php53-xdebug php53-mcrypt
-
-  # Switch PHP versions from the CLI with `php-switch 53`
-  brew install brew-php-switcher
-
-  # xdebug toggler
-  curl -L https://raw.githubusercontent.com/w00fz/xdebug-osx/master/xdebug > ~/.dotfiles/bin/xdebug
-  chmod +x ~/.dotfiles/bin/xdebug
-else
-  echo 'PHP7 installation on Linux not implemented yet'
+if [[ "$PLATFORM" == "Linux" ]]; then
+  echo 'PHP installation on Linux not implemented yet'
   return
 fi
+
+brew tap homebrew/php
+
+brew install php70 --with-postgresql --with-apache
+brew install php70-xdebug php70-mcrypt
+
+brew unlink php70
+brew install php53 --with-postgresql --with-mysql --with-apache
+brew install php53-xdebug php53-mcrypt
+
+brew install xdebug-osx brew-php-switcher
+
+brew-php-switcher 70
 
 if [[ ! -a bin/composer ]]; then
   curl -sS https://getcomposer.org/installer | php -- --install-dir=bin --filename=composer
