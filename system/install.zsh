@@ -8,6 +8,8 @@ if [[ "$PLATFORM" == "Darwin" ]]; then
 
   # Show the ~/Library folder
   chflags nohidden ~/Library
+
+  brew cask install java keka
 fi
 
 npm install nativefier -g
