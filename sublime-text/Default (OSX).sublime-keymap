@@ -1,6 +1,8 @@
 [
 { "keys": ["super+back_slash"], "command": "toggle_comment", "args": { "block": false } },
 { "keys": ["super+alt+back_slash"], "command": "toggle_comment", "args": { "block": true } },
-{ "keys": ["ctrl+alt+m"], "command": "markdown_preview", "args": {"target": "browser"} },
 { "keys": ["super+alt+a"], "command": "alignment" },
+{ "keys": ["ctrl+alt+m"], "command": "markdown_preview", "args": {"target": "browser"} },
+{ "keys": ["ctrl+alt+n"], "command": "import_namespace"},
+{ "keys": ["ctrl+alt+u"], "command": "find_use"}
 ]
