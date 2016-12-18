@@ -8,6 +8,7 @@
 	[
 		"AdvancedNewFile",
 		"Alignment",
+		"Base16 Color Schemes",
 		"ColorPicker",
 		"DocBlockr",
 		"EncodingHelper",
@@ -18,6 +19,7 @@
 		"Markdown Preview",
 		"nginx",
 		"Package Control",
+		"PackageResourceViewer",
 		"PHP Companion",
 		"PHP Getters and Setters",
 		"PHP-Twig",
@@ -28,7 +30,6 @@
 		"SublimeLinter-php",
 		"Symfony2 Snippets",
 		"Theme - SoDaReloaded",
-		"Theme - Spacegray",
 		"TrailingSpaces",
 		"WordPress"
 	]
