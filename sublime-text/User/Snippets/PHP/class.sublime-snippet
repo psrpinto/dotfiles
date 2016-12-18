@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+class ${1:ClassName}
+{
+    $2
+}
+]]></content>
+    <tabTrigger>class</tabTrigger>
+    <scope>source.php</scope>
+    <description>class ...</description>
+</snippet>
