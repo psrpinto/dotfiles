@@ -1,4 +1,6 @@
 [
+{ "keys": ["ctrl+tab"], "command": "next_view" },
+{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
 { "keys": ["super+back_slash"], "command": "toggle_comment", "args": { "block": false } },
 { "keys": ["super+alt+back_slash"], "command": "toggle_comment", "args": { "block": true } },
 { "keys": ["super+alt+a"], "command": "alignment" },
