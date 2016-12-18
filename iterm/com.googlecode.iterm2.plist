@@ -548,7 +548,7 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>340 597 606 456 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>411 282 1250 758 0 0 1920 1057 </string>
+	<string>394 343 1075 707 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>319 208 1194 843 0 0 1920 1057 </string>
 	<key>New Bookmarks</key>
@@ -2089,6 +2089,8 @@
 	<false/>
 	<key>OpenTmuxWindowsIn</key>
 	<integer>0</integer>
+	<key>PMPrintingExpandedStateForPrint2</key>
+	<false/>
 	<key>PassOnControlClick</key>
 	<false/>
 	<key>PasteFromClipboard</key>
@@ -2130,6 +2132,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/regularjack/.dotfiles/iterm</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>PromptOnClose</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -2151,7 +2155,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-09-14T14:21:51Z</date>
+	<date>2016-10-03T14:04:12Z</date>
 	<key>SUSkippedVersion</key>
 	<string>1.0.0.20140421</string>
 	<key>SavePasteHistory</key>
@@ -2203,6 +2207,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.8</string>
+	<string>3.0.10</string>
 </dict>
 </plist>
