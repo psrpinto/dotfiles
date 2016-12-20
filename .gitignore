@@ -11,3 +11,4 @@ bin/composer
 bin/wp
 bin/symfony
 bin/xdebug
+ssh/config.d/hosts

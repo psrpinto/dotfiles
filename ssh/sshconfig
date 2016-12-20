@@ -13,19 +13,4 @@ ServerAliveCountMax 10
 # Faster connections by disabling GSSAPI
 GSSAPIAuthentication no
 
-# Host aliases
-Host htpi
-  HostName 192.168.0.49
-  User pi
-  ForwardAgent yes
-
-Host memeoirs
-  HostName memeoirs.com
-  User memeoirs
-  # postgres
-  LocalForward 127.0.0.1:5555 127.0.0.1:5432
-
-Host hippocrene
-  HostName fondationhippocrene.eu
-  User admin
-  ForwardAgent yes
+Include config.d/hosts
