@@ -24,13 +24,13 @@
 		"PHP Getters and Setters",
 		"PHP-Twig",
 		"Phpcs",
+		"PHPUnit",
 		"SCSS",
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-php",
 		"Symfony2 Snippets",
 		"Theme - SoDaReloaded",
-		"TrailingSpaces",
-		"WordPress"
+		"TrailingSpaces"
 	]
 }
