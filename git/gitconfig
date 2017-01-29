@@ -3,6 +3,7 @@
     email = regularjack@gmail.com
 [core]
     editor = vim
+    excludesfile = ~/.dotfiles/git/gitignore
 [color]
     ui = auto
 [alias]
