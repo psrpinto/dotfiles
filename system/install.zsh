@@ -9,6 +9,7 @@ if [[ "$PLATFORM" == "Darwin" ]]; then
   # Show the ~/Library folder
   chflags nohidden ~/Library
 
+  brew install homebrew/gui/meld
   brew cask install java keka
 fi
 

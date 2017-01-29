@@ -13,4 +13,8 @@ ServerAliveCountMax 10
 # Faster connections by disabling GSSAPI
 GSSAPIAuthentication no
 
+Host *
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_rsa
+
 Include config.d/hosts

@@ -13,3 +13,4 @@ else
 fi
 
 brew bundle --file=homebrew/Brewfile
+brew upgrade

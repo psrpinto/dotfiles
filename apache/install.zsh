@@ -28,7 +28,7 @@ sed -i -e "s/^Group.*/Group staff/" $CONFIG_FILE
 
 # Setup custom vhosts
 SITES_DIR=/Users/$USER/Sites/vhosts
-mkdir $SITES_DIR
+mkdir -p $SITES_DIR
 touch $SITES_DIR/default.conf
 grep -q -F "Include $SITES_DIR/default.conf" $CONFIG_FILE || echo "Include $SITES_DIR/default.conf" >> $CONFIG_FILE
 
