@@ -14,19 +14,19 @@ if [[ "$PLATFORM" == "Darwin" ]]; then
  fi
 fi
 
-TARBALL_URL=$(curl -s https://api.github.com/repos/adobe-fonts/source-code-pro/releases/latest | grep tarball_url | head -n 1 | cut -d '"' -f 4)
+TARBALL_URL="https://github.com/adobe-fonts/source-code-pro/archive/2.030R-ro/1.050R-it.tar.gz"
 
-curl -L $TARBALL_URL | tar xvzf -
+curl -L $TARBALL_URL | tar xzf -
 
 if [[ "$PLATFORM" == "Linux" ]]; then
   mkdir -p ~/.fonts
-  cp -f adobe-fonts-source-code-pro-*/TTF/* ~/.fonts/
+  cp -f source-code-pro-*/TTF/* ~/.fonts/
   cp -f fonts/Monaco_Linux.ttf ~/.fonts/
   fc-cache -f -v
 fi
 
 if [[ "$PLATFORM" == "Darwin" ]]; then
-  cp -f adobe-fonts-source-code-pro-*/TTF/* ~/Library/Fonts/
+  cp -f source-code-pro-*/TTF/* ~/Library/Fonts/
 fi
 
-rm -rf adobe-fonts-source-code-pro-*
+rm -rf source-code-pro-*
