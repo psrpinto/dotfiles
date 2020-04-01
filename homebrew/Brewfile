@@ -1,5 +1,0 @@
-tap "homebrew/dupes"
-tap "homebrew/services"
-
-brew "openssl"
-brew "imagemagick"
