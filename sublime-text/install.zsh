@@ -9,11 +9,11 @@ if [[ "$PLATFORM" == "Linux" ]]; then
 fi
 
 if [[ "$PLATFORM" == "Darwin" ]]; then
-  brew cask install sublime-text
-  ln -sfh ~/.dotfiles/sublime-text/User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+  rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+  ln -sh ~/.dotfiles/sublime-text/User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
   for dir in ~/.dotfiles/sublime-text/Overrides/*;
   do
-    ln -sfh $dir ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/$(basename $dir);
+    ln -sFh $dir ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/$(basename $dir);
   done
 fi

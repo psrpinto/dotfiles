@@ -11,12 +11,10 @@
 		"Base16 Color Schemes",
 		"ColorPicker",
 		"DocBlockr",
-		"EncodingHelper",
 		"HexViewer",
 		"JsonTree",
 		"LaTeX Word Count",
 		"LESS",
-		"Markdown Preview",
 		"nginx",
 		"Package Control",
 		"PackageResourceViewer",
@@ -31,6 +29,7 @@
 		"SublimeLinter-php",
 		"Symfony2 Snippets",
 		"Theme - SoDaReloaded",
-		"TrailingSpaces"
+		"TrailingSpaces",
+		"MarkdownPreview"
 	]
 }
