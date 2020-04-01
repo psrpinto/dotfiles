@@ -1,0 +1,16 @@
+{
+  "entries": {
+  },
+  "system": {
+    "macos": {
+      "mojave": {
+        "HOMEBREW_VERSION": "2.2.11",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "9e63a3ff81cb34eb582d0c641795e6a39c1a06ae",
+        "CLT": "10.3.0.0.1.1562985497",
+        "Xcode": "10.2.1",
+        "macOS": "10.14.6"
+      }
+    }
+  }
+}
