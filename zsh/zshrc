@@ -24,3 +24,5 @@ for file in ${(M)config_files:#*/path.zsh}; do source $file; done
 
 # Load everything but the path and install files
 for file in ${${config_files:#*/path.zsh}:#*/install.zsh}; do source $file; done
+
+eval $(thefuck --alias fu)
