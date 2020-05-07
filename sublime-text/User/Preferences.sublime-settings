@@ -5,7 +5,6 @@
 	[
 		"*.log",
 		"*.cache",
-		"*.lock",
 		"*.sublime-workspace",
 		".project",
 		".buildpath",
