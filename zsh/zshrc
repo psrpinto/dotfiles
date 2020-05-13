@@ -15,6 +15,9 @@ source $ZSH/oh-my-zsh.sh
 unsetopt correct_all  # Disable autocorrect
 setopt rm_star_silent # Don't ask for confirmation for `rm *' or `rm path/*'
 
+# Load aliases
+source $DOT/aliases.zsh
+
 # All of our zsh files
 typeset -U config_files
 config_files=($DOT/**/*.zsh)

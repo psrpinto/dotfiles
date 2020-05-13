@@ -1,0 +1,7 @@
+alias d="docker"
+alias dm="docker-machine"
+alias dc="docker-compose"
+alias gclean="git branch --merged | egrep -v '(^\*|master)' | xargs git branch -d"
+alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to clipboard'"
+alias s="subl ."
+alias wget="curl -O --retry 999 --retry-max-time 0 -C -"
