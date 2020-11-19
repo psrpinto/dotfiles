@@ -575,7 +575,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>650 510 620 392 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>404 289 1060 707 0 0 1920 1057 </string>
+	<string>423 242 1075 707 0 0 1920 1057 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2090,9 +2090,12 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
-		<string>3.3.7</string>
-		<string>3.3.8</string>
 		<string>3.3.9</string>
+		<string>3.3.8</string>
+		<string>3.3.10beta4</string>
+		<string>3.3.7</string>
+		<string>3.3.10beta3</string>
+		<string>3.3.11beta1</string>
 	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
@@ -2104,7 +2107,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>C2F76B87-7F86-461C-82B9-693C8894C7DF</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>23</integer>
+	<integer>102</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2904,7 +2907,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-04-01T13:19:45Z</date>
+	<date>2020-06-16T21:47:15Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
@@ -2961,9 +2964,11 @@
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.3.9</string>
+	<string>3.3.11beta1</string>
 </dict>
 </plist>
