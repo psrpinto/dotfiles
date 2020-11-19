@@ -7,8 +7,3 @@ sublime-text/User/Package Control.user-ca-bundle
 sublime-text/User/Package Control.system-ca-bundle
 sublime-text/User/oscrypto-ca-bundle.crt
 sublime-text/User/SublimeLinter/
-bin/composer
-bin/wp
-bin/symfony
-bin/xdebug
-ssh/config.d/hosts
