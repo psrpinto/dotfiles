@@ -12,3 +12,5 @@ fi
 if [[ -a ~/.digitalocean-token ]]; then
   export DIGITALOCEAN_TOKEN=$(cat ~/.digitalocean-token)
 fi
+
+CAPTAIN_ROOT=~/Code/distope
