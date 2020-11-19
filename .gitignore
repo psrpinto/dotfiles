@@ -1,9 +1,2 @@
 *.sublime-project
 *.sublime-workspace
-sublime-text/User/Package Control.last-run
-sublime-text/User/Package Control.cache/
-sublime-text/User/Package Control.merged-ca-bundle
-sublime-text/User/Package Control.user-ca-bundle
-sublime-text/User/Package Control.system-ca-bundle
-sublime-text/User/oscrypto-ca-bundle.crt
-sublime-text/User/SublimeLinter/
