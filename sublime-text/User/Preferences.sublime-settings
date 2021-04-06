@@ -1,5 +1,18 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/base16-eighties (SL).tmTheme",
+	"added_words":
+	[
+		"Terraform",
+		"frontend",
+		"Symfony",
+		"plugins",
+		"Laravel",
+		"Dropbox",
+		"Automattic",
+		"Automattic's",
+		"Backend",
+		"arduino"
+	],
+	"color_scheme": "Packages/Base16 Color Schemes/Themes/base16-atelier-dune-light.tmTheme",
 	"detect_indentation": true,
 	"file_exclude_patterns":
 	[
@@ -26,7 +39,7 @@
 		"tmp"
 	],
 	"font_face": "Source Code Pro",
-	"font_size": 15,
+	"font_size": 16,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -40,7 +53,8 @@
 	"scroll_past_end": true,
 	"scroll_speed": 0,
 	"show_encoding": true,
-	"theme": "SoDaReloaded Dark.sublime-theme",
+	"spell_check": true,
+	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
