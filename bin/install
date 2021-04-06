@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [[ ${PWD##*/} != ".dotfiles" ]]; then
-  echo "'dotfiles' must be executed from the dotfiles directory, ~/.dotfiles"
+  echo "Must be executed from within  the ~/.dotfiles directory"
   exit
 fi
 
