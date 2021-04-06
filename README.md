@@ -3,8 +3,11 @@ dotfiles
 
 My dotfiles
 
-## Instalation
+## Installation
 
-    git clone git@github.com:regularjack/dotfiles.git ~/.dotfiles
-    cd ~/.dotfiles
-    ./bin/dotfiles
+```shell
+git clone git@github.com:psrpinto/dotfiles.git ~/Code/dotfiles
+ln -s ~/Code/dotfiles ~/.dotfiles
+cd ~/.dotfiles
+bin/install
+```
