@@ -9,3 +9,5 @@ fi
 mkdir -p ~/.ssh
 ln -sf ~/.dotfiles/ssh/sshconfig ~/.ssh/config
 ln -sfh ~/.dotfiles/ssh/config.d ~/.ssh/config.d
+
+touch ~/.ssh/config.d/hosts
