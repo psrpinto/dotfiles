@@ -12,7 +12,7 @@
 		"Backend",
 		"arduino"
 	],
-	"color_scheme": "Packages/Base16 Color Schemes/Themes/base16-atelier-dune-light.tmTheme",
+	"color_scheme": "Packages/Base16 Color Schemes/Themes/base16-atlas.tmTheme",
 	"detect_indentation": true,
 	"file_exclude_patterns":
 	[
