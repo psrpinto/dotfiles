@@ -1,3 +1,5 @@
+Include config.d/hosts
+
 # Enable connection sharing
 ControlMaster auto
 ControlPath ~/.ssh/ssh_mux_%h_%p_%r
@@ -12,9 +14,3 @@ ServerAliveCountMax 10
 
 # Faster connections by disabling GSSAPI
 GSSAPIAuthentication no
-
-Host *
-  AddKeysToAgent yes
-  IdentityFile ~/.ssh/id_rsa
-
-Include config.d/hosts
