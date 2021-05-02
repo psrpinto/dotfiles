@@ -1,6 +1,6 @@
 # Enable connection sharing
 ControlMaster auto
-ControlPath /tmp/ssh_mux_%h_%p_%r
+ControlPath ~/.ssh/ssh_mux_%h_%p_%r
 
 # Enable persistent connections
 ControlPersist 4h
