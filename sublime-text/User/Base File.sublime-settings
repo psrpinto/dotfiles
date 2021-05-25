@@ -1,5 +1,0 @@
-{
-	"alignment_chars": ["=", ":", ","],
-    "alignment_space_chars": ["=", ":"],
-    "php_namespace.stop_folders": ["src"]
-}
