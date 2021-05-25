@@ -10,6 +10,7 @@ COMPLETION_WAITING_DOTS="true" # red dots are displayed while waiting for comple
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 plugins=(zsh_reload z extract git sublime composer brew docker docker-machine docker-compose terraform)
 
+ZSH_DISABLE_COMPFIX=true
 source $ZSH/oh-my-zsh.sh
 
 unsetopt correct_all  # Disable autocorrect
