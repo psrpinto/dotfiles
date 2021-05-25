@@ -14,7 +14,7 @@ if [[ "$PLATFORM" == "Darwin" ]]; then
  fi
 fi
 
-TARBALL_URL="https://github.com/adobe-fonts/source-code-pro/archive/2.030R-ro/1.050R-it.tar.gz"
+TARBALL_URL="https://github.com/adobe-fonts/source-code-pro/archive/refs/tags/2.038R-ro/1.058R-it/1.018R-VAR.tar.gz"
 
 curl -L $TARBALL_URL | tar xzf -
 
